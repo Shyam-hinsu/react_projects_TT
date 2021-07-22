@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+ 
+  background-color:#8EE4AF;
+}
+
+.container{
+  display:grid;
+  justify-content:center;
+  padding-top: 200px;
+}
+
+.card{
+height: 250px;
+width: 300px;
+background-color:#EDF5E1;
+border-radius: 10px;
+
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.header{
+  margin-top:50px;
+  font-size: 102px;
+ 
+  margin-bottom:50px;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                   0px -5px 35px rgba(255,255,255,0.3);
+  
+}
+
+.btn1{
+
+  font-family: 'Yomogi', cursive;
+
+  font-weight:bolder;
+  background-color:burlywood;
+  border:none;
+  
+  padding:10px 15px;
+  width:120px;
+  border-radius: 10PX;
+  
+  
+
+}
+
+
+
+.btn2{
+  font-family: 'Yomogi', cursive;
+  font-weight:bolder;
+  background-color: burlywood;
+  border:none;
+  
+  padding:2px 5px;
+  width:120px;
+  border-radius:10px;
+ 
+
+}
+
+
+
+.btn1:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px
+
+}
+
+.btn2:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px
+}
+
+.btndiv{
+ display:flex;
+ justify-content:space-around;
+ font-family: 'Yomogi', cursive;
+
+
+}
+
+
+
+

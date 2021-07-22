@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+body{
+  margin:0px;
+  box-sizing:border-box;
+  background-color:rgba(255, 123, 0, 0.877);
+ 
+ 
+}
+
+.continer{
+ display:grid;
+ grid-template-columns: auto auto auto;
+ 
+ justify-content:center;
+padding-top: 150px;
+z-index:1001;
+  overflow:hidden;
+  color:white;
+
+  
+
+}
+h1{
+  align-items: center;
+  padding-top:2rem;
+  padding-bottom: 30px;
+  color:rgb(51, 30, 2);
+  background-color:white;
+  font-family: 'Syncopate', sans-serif;
+}
+  
+.input1{
+  border: none;
+
+
+}
+
+.note{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+  height: auto;
+  min-height: 400px;
+  width: 300px;
+  border-radius: 30px;
+  
+  text-align:center;
+  background-color: rgb(44, 18, 3);
+
+ 
+  align-items:center;
+  justify-content:center;
+  margin: 50px 0;
+  
+  
+
+}
+
+.fill{
+  border-radius: 100%;
+  border:none;
+  background-color:rgb(255, 255, 255);
+  
+  padding: 10px;
+  padding:7px 11px;
+  font-weight: 700; 
+  font-size:18px;
+  color:black;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  
+
+  
+}
+.fill:hover{
+  background-color:rgb(0, 185, 0);
+  box-shadow: rgba(1, 255, 13, 0.315) 0px 54px 55px, rgba(0, 255, 76, 0.12) 0px -12px 30px, rgba(9, 255, 0, 0.12) 0px 4px 6px, rgba(30, 255, 0, 0.178) 0px 12px 13px, rgba(0, 255, 0, 0.199) 0px -3px 5px;
+}
+.Divinp{
+  display: inline-block;
+  
+}
+.textfield{
+  background-color: transparent;
+margin-right: 30px;
+border:none;
+border-bottom:2px solid rgb(255, 255, 255);
+
+}
+.textfield:focus{
+
+outline: none;
+color: white;
+
+  
+  
+}
+
+.list{
+  
+  text-align: left;
+  display:inline-block ;
+  margin-right: 30px ;
+
+}
+
+ul{
+  list-style: none;
+  padding-bottom: 20px;
+  text-align: left;
+ 
+}
+
+.btnl{
+  
+  padding: 2px 5px;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-weight: 500;
+  border:none;
+
+}
+
+.btnl:hover{
+  background-color:red;
+  color:rgb(255, 255, 255);
+  border:none;
+  box-shadow: rgba(255, 1, 1, 0.315) 0px 54px 55px, rgba(255, 0, 0, 0.12) 0px -12px 30px, rgba(255, 0, 0, 0.12) 0px 4px 6px, rgba(255, 0, 0, 0.178) 0px 12px 13px, rgba(255, 0, 0, 0.199) 0px -3px 5px;
+
+}
+
+.iteamname{
+  margin-bottom: 10px;
+}
+
+
